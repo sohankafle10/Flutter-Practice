@@ -39,7 +39,7 @@ class Practice extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
                     Text(
-                      'Text',
+                      'Hello',
                       style: TextStyle(color: Colors.white, fontSize: 18),
                     ),
                     SizedBox(height: 20),
@@ -54,10 +54,10 @@ class Practice extends StatelessWidget {
                   ],
                 ),
                 SizedBox(width: 40),
-                // Clean right-side container (no yellow part)
+                
                 Container(
-                  width: 100,
-                  height: 180,
+                  width: 500,
+                  height: 500,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(color: Colors.white, width: 2),
