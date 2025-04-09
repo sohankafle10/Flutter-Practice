@@ -1,4 +1,6 @@
+import 'package:basic_dart/commerce.dart';
 import 'package:basic_dart/containers.dart';
+import 'package:basic_dart/counterapp.dart';
 import 'package:basic_dart/example.dart';
 import 'package:basic_dart/homepage.dart';
 import 'package:basic_dart/imagee.dart';
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Imagee()
+      home: Counterapp()
     );
   }
 }
