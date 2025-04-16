@@ -3,6 +3,7 @@ import 'package:basic_dart/commerce.dart';
 import 'package:basic_dart/containers.dart';
 import 'package:basic_dart/counterapp.dart';
 import 'package:basic_dart/example.dart';
+import 'package:basic_dart/form_example.dart';
 import 'package:basic_dart/homepage.dart';
 import 'package:basic_dart/imagee.dart';
 import 'package:basic_dart/practice.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Sizebox()
+      home: FormExample()
     );
   }
 }
