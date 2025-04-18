@@ -1,3 +1,4 @@
+import 'package:basic_dart/BookTrip.dart';
 import 'package:basic_dart/button_example.dart';
 import 'package:basic_dart/commerce.dart';
 import 'package:basic_dart/containers.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: HomePageUI()
+      home: Booktrip()
     );
   }
 }
