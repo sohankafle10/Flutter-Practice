@@ -1,5 +1,4 @@
 import 'package:basic_dart/BookTrip.dart';
-import 'package:basic_dart/HotelUI.dart';
 import 'package:basic_dart/button_example.dart';
 import 'package:basic_dart/commerce.dart';
 import 'package:basic_dart/containers.dart';
@@ -7,10 +6,11 @@ import 'package:basic_dart/counterapp.dart';
 import 'package:basic_dart/example.dart';
 import 'package:basic_dart/form_example.dart';
 import 'package:basic_dart/homepage.dart';
-import 'package:basic_dart/homescreen.dart';
+
 import 'package:basic_dart/imagee.dart';
 import 'package:basic_dart/practice.dart';
 import 'package:basic_dart/sizebox.dart';
+import 'package:basic_dart/ui_example.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Hotelui()
+      home: Design(),
     );
   }
 }
