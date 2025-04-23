@@ -4,6 +4,7 @@ import 'package:basic_dart/commerce.dart';
 import 'package:basic_dart/containers.dart';
 import 'package:basic_dart/counterapp.dart';
 import 'package:basic_dart/example.dart';
+import 'package:basic_dart/first_screen.dart';
 import 'package:basic_dart/form_example.dart';
 import 'package:basic_dart/homepage.dart';
 
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Design(),
+      home: FirstScreen(),
     );
   }
 }
