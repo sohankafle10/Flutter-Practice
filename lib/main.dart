@@ -9,6 +9,7 @@ import 'package:basic_dart/form_example.dart';
 import 'package:basic_dart/homepage.dart';
 
 import 'package:basic_dart/imagee.dart';
+import 'package:basic_dart/lib/homepage.dart';
 import 'package:basic_dart/practice.dart';
 import 'package:basic_dart/sizebox.dart';
 import 'package:basic_dart/ui_example.dart';
@@ -22,16 +23,20 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   // This widget is the root of your application.
-  @override
+   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
       ),
-      home: FirstScreen(),
+      debugShowCheckedModeBanner: false,
+      home: TodoApplication(),
+      // routes: {
+      //   AppRoutes.firstScreen: (ctx) => NamedFirstScreen(),
+      //   AppRoutes.secondScreen: (ctx) => NamedSecondScreen(),
+      // },
     );
   }
 }

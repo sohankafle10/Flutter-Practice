@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/second_screen.dart';
+// ignore: depend_on_referenced_packages
+// import 'package:myapp/second_screen.dart';
 
 class FirstScreen extends StatefulWidget {
   const FirstScreen({super.key});
